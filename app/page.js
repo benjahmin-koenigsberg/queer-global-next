@@ -23,7 +23,7 @@ export default async function Home() {
           <div key={post.attributes.publishedAt}>
             <h2>{post.attributes.title}</h2>
             <h4>{post.attributes.description}</h4>
-            <p className="lead">{post.attributes.content[1].children[0].text}</p>
+            <p className="lead">{post.attributes.content[0].children[0].text}</p>
           </div>
         ))
       }
