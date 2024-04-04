@@ -1,7 +1,7 @@
 
 import axios from "axios"
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import Link from "next/link"
 
 
@@ -16,20 +16,16 @@ export default async function Home() {
   // console.log(postsResponse.data.data[0].id)
 
 
-
-
   return (
     <>
       <Navbar />
       {
         posts.map(post => (
           <div key={post.attributes.publishedAt}>
-            <Link href={`/posts/${post.id}`}>
-            <p>{post.attributes.id}</p>
+            <Link href={`/posts/${post.id}`} >
             <h2>{post.attributes.title}</h2>
             <h4>{post.attributes.description}</h4>
             </Link>
-            {/* <p className="lead">{post.attributes.content[0].children[0].text}</p> */}
           </div>
         ))
       }
