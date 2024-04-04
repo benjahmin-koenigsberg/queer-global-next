@@ -12,6 +12,7 @@ export default async function Home() {
   const postsResponse = await axios.get("https://queer-global-strapi.onrender.com/api/posts")
 
   const posts = postsResponse.data.data
+  //console.log(posts)
   // console.log(postsResponse.data.data[1].attributes.content[0].children)
   // console.log(postsResponse.data.data[0].id)
 
