@@ -17,7 +17,7 @@ async function PostPage(props) {
       <h4>{post[0].attributes.description}</h4>
       <p className="lead">{post[0].attributes.content[0].children[0].text}</p>
       {/* <Image src={post[0].attributes.content[0].image.url}  height={200} width={200} /> */}
-      <p>{post[0].attributes.content[0]?.image.url}</p>
+      {/* <p>{post[0].attributes.content[0].image.url}</p> */}
     </>
 
   )
