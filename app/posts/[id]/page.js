@@ -13,7 +13,7 @@ async function PostPage(props) {
   //console.log(posts)
   const post = posts.filter((post) => post.id == id)
   const postParagraphs = post[0].attributes.content.map(el => el.children).map(el=>el[0]).map(el=>el.text)
-  console.log(postParagraphs)
+  //console.log(postParagraphs)
   return (
     <>
     <Navbar />
