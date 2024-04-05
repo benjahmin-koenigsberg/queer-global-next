@@ -27,28 +27,6 @@ const [hamburger, setHambergur] = useState(true)
           </div>
         </div>
       </nav>
-
-      {/* <header className="header-area">
-        <div className="navbar-area">
-          <div className="header-container">
-            <nav className="site-navbar">
-              <Image src={Logo} width={100} height={80} className="site-logo" />
-
-              <ul>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./resources.html">Resources</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-                <li><a href="./donate.html">Donate</a></li>
-              </ul>
-
-              <button className="nav-toggler">
-                <span></span>
-              </button>
-            </nav>
-          </div>
-        </div>
-      </header> */}
     </>
 
   )
