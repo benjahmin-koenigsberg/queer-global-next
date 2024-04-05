@@ -8,8 +8,8 @@ import Link from "next/link"
 export default async function Home() {
 
 
-  // const postsResponse = await axios.get("http://localhost:1337/api/posts")
-  const postsResponse = await axios.get("https://queer-global-strapi.onrender.com/api/posts")
+  const postsResponse = await axios.get("http://localhost:1337/api/posts")
+  // const postsResponse = await axios.get("https://queer-global-strapi.onrender.com/api/posts")
 
   const posts = postsResponse.data.data
   //console.log(posts)
@@ -22,7 +22,7 @@ export default async function Home() {
       <Navbar />
       {
         posts.map(post => (
-          <div key={post.attributes.publishedAt}>
+          <div key={post.attributes.publishedAt} className="card">
             <Link href={`/posts/${post.id}`} >
             <h2>{post.attributes.title}</h2>
             <h4>{post.attributes.description}</h4>
