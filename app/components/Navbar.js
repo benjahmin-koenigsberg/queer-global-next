@@ -12,7 +12,7 @@ const [hamburger, setHambergur] = useState(true)
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom border-black  px-4">
         <a className="navbar-brand" href="#">
-          <Image src={Logo} width={130} height={90} className="site-logo" />
+          <Image src={Logo} width={130} height={90} className="site-logo" alt="Queer global logo" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setHambergur((prev) => !prev)}>
           <span className="navbar-toggler-icon"></span>
