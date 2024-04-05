@@ -3,7 +3,6 @@ import "../styles/Navbar.css"
 import Image from 'next/image'
 import Logo from '../assets/qc-logo.png'
 import { useState } from "react"
-import { Collapse } from "react-bootstrap"
 
 function Navbar() {
 
