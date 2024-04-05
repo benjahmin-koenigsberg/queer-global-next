@@ -19,11 +19,11 @@ const [hamburger, setHambergur] = useState(true)
         </button>
         <div className={`${hamburger ? "collapse" : "" } navbar-collapse`} id="navbarNavAltMarkup"  >
           <div className=" navbar-nav ms-auto site-navbar" >
-            <a className="nav-item nav-link" href="#">ABOUT US</a>
-            <a className="nav-item nav-link" href="#">RESOURCES</a>
-            <a className="nav-item nav-link" href="#">BLOG</a>
-            <a className="nav-item nav-link" href="#">CONTACT US</a>
-            <a className="nav-item nav-link" href="#">DONATE</a>
+            <a className="nav-item nav-link" href="https://queer-global-verion-2.vercel.app/about.html">ABOUT US</a>
+            <a className="nav-item nav-link" href="https://queer-global-verion-2.vercel.app/resources.html">RESOURCES</a>
+            <a className="nav-item nav-link" href="http://localhost:3000/">BLOG</a>
+            <a className="nav-item nav-link" href="https://queer-global-verion-2.vercel.app/contact.html">CONTACT US</a>
+            <a className="nav-item nav-link" href="https://queer-global-verion-2.vercel.app/donate.html">DONATE</a>
           </div>
         </div>
       </nav>
