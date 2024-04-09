@@ -36,7 +36,6 @@ async function PostPage(props) {
         /> */}
         {/* <h6 className="card-text lead p-4">{post[0].attributes.content[0].children[0].text}</h6> */}
         <h6 className="card-text lead p-4">{postParagraphs}</h6>
-        {/* <p>{post[0].attributes.content[0].image.url}</p> */}
       </div>
       <Footer />
     </div>

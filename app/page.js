@@ -34,7 +34,6 @@ export default async function Home() {
                   <h5 className="card-title text-center">{post.attributes.title}</h5>
                   <h6 className="card-text text-center p-2">{post.attributes.description}</h6>
                 </div>
-
               </div>
             </Link>
           </div>
